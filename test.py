@@ -26,7 +26,7 @@ prev=""
 model = tf.keras.models.load_model("model_name.model")
 
 prev_time = time.time()
-path = "shortdata\\S\\1.jpg"
+path = "data\\S\\1.jpg"
 
 src = cv2.imread(path)
 
