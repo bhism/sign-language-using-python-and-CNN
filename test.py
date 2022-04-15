@@ -20,7 +20,7 @@ def preprocessing(img0,IMG_SIZE=100):
     ret,img_th = cv2.threshold(imgTh,0,255,cv2.THRESH_TOZERO+cv2.THRESH_OTSU)
     return img_th
 
-ALPHABET =  ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9','callme','fingercross'] 
+ALPHABET =  ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9'] 
 
 prev=""
 model = tf.keras.models.load_model("model_name.model")
